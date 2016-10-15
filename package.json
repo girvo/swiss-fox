@@ -1,0 +1,33 @@
+{
+  "name": "swiss-fox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "build": "",
+    "watch": "",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "",
+  "license": "MIT",
+  "devDependencies": {
+    "babel-eslint": "^7.0.0",
+    "nodemon": "^1.11.0",
+    "standard": "^8.4.0"
+  },
+  "dependencies": {
+    "bubleify": "^0.5.1",
+    "preact": "^6.3.0",
+    "simplifyify": "^2.0.4"
+  },
+  "browserify": {
+    "transform": [
+      [
+        "bubleify",
+        {
+          "jsx": "h"
+        }
+      ]
+    ]
+  }
+}
