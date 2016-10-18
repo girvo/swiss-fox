@@ -9,6 +9,7 @@ ENV NODE_ENV=$env
 
 WORKDIR /
 ADD docker/start.$env.sh /start.sh
+RUN chmod +x /start.sh
 CMD ["/start.sh"]
 
 EXPOSE 3000

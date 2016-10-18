@@ -1,4 +1,5 @@
 #!/usr/bin/env bash
 set -e -x
 
-/app/node_modules/.bin/nodemon /app/server
+cd /app
+node /app/server & npm run watch

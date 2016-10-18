@@ -1,7 +1,8 @@
 {
     "project": "swiss-fox",
     "volume": ".:/app",
-    "db": {
-        "type": "mongodb"
+    "db": { "type": "none" },
+    "env": {
+      "VIRTUAL_PORT": "3000"
     }
 }
