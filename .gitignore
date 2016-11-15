@@ -1,7 +1,2 @@
-# Node and compiled assets
-build/*
-data/*
 node_modules
-
-# Inverts
-!.gitkeep
+__clientTemp
